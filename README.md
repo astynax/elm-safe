@@ -1,7 +1,7 @@
 # Elm-safe
 
 Elm-safe - simple puzzle game written in Elm during
-[this stream](https://youtu.be/yXlrUpfEQRE). Playable version is [here](index.html).
+[this stream](https://youtu.be/yXlrUpfEQRE). Playable version is [here](https://astynax.github.io/elm-safe).
 
 ## Trivia
 
