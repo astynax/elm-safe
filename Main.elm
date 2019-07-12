@@ -6,11 +6,11 @@ import Collage.Events exposing (onClick)
 import Collage.Render exposing (svg)
 import Collage.Text as Text
 import Color
-import Debug exposing (toString)
 import Html exposing (Html)
 import Html.Events as Events
 import List
 import Random
+import String
 
 
 type alias List2d =
@@ -72,7 +72,7 @@ view model =
             [ Html.text "New game" ]
         , Html.text "Moves:"
         , model.moves
-            |> toString
+            |> String.fromInt
             |> Html.text
         , if gameIsOver model.field then
             renderGameOver (model.config.cellSize * toFloat model.config.cells)
